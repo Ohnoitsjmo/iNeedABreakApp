@@ -7,21 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93EBA5D7874EF6F7135CFD50 /* Pods_iNeedABreak2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C8DD66BA2223B8A38DE24A /* Pods_iNeedABreak2.framework */; };
+		E00DC14B1DE62B65007CBBFB /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00DC14A1DE62B65007CBBFB /* SchoolTableViewCell.swift */; };
+		E0160DBE1DDE2101009DFD59 /* SchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0160DBD1DDE2101009DFD59 /* SchoolTableViewController.swift */; };
 		E01C6D2E1DD83DEA00AF5EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01C6D2D1DD83DEA00AF5EE0 /* AppDelegate.swift */; };
 		E01C6D301DD83DEA00AF5EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01C6D2F1DD83DEA00AF5EE0 /* ViewController.swift */; };
-		E01C6D331DD83DEA00AF5EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01C6D311DD83DEA00AF5EE0 /* Main.storyboard */; };
 		E01C6D351DD83DEA00AF5EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01C6D341DD83DEA00AF5EE0 /* Assets.xcassets */; };
 		E01C6D381DD83DEA00AF5EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01C6D361DD83DEA00AF5EE0 /* LaunchScreen.storyboard */; };
+		E01C6D401DD83E6C00AF5EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01C6D3F1DD83E6C00AF5EE0 /* Main.storyboard */; };
+		E01C6D461DD840A100AF5EE0 /* CreateSchoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01C6D451DD840A100AF5EE0 /* CreateSchoolController.swift */; };
+		E0845A9F1DF3E6FA00F9EECA /* BreakTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0845A9E1DF3E6FA00F9EECA /* BreakTableViewCell.swift */; };
+		E0845AA11DF3E8F000F9EECA /* CreateSchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0845AA01DF3E8F000F9EECA /* CreateSchoolTableViewController.swift */; };
+		E0B9A4361DF41C2300085BCC /* CreateSchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9A4351DF41C2300085BCC /* CreateSchoolTableViewCell.swift */; };
+		E0BB29EB1DD8445D004C2D95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0BB29EA1DD8445D004C2D95 /* GoogleService-Info.plist */; };
+		E0CC405F1DF8E5B300CE3441 /* BreakTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CC405E1DF8E5B300CE3441 /* BreakTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05507F4E69A6E469282F985A /* Pods-iNeedABreak2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iNeedABreak2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iNeedABreak2/Pods-iNeedABreak2.debug.xcconfig"; sourceTree = "<group>"; };
+		633B05B52EE7674B21F00D43 /* Pods-iNeedABreak2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iNeedABreak2.release.xcconfig"; path = "Pods/Target Support Files/Pods-iNeedABreak2/Pods-iNeedABreak2.release.xcconfig"; sourceTree = "<group>"; };
+		C4C8DD66BA2223B8A38DE24A /* Pods_iNeedABreak2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iNeedABreak2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00DC14A1DE62B65007CBBFB /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
+		E0160DBD1DDE2101009DFD59 /* SchoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchoolTableViewController.swift; path = ../SchoolTableViewController.swift; sourceTree = "<group>"; };
 		E01C6D2A1DD83DEA00AF5EE0 /* iNeedABreak2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNeedABreak2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01C6D2D1DD83DEA00AF5EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E01C6D2F1DD83DEA00AF5EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E01C6D321DD83DEA00AF5EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E01C6D341DD83DEA00AF5EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E01C6D371DD83DEA00AF5EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E01C6D391DD83DEA00AF5EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E01C6D3F1DD83E6C00AF5EE0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E01C6D451DD840A100AF5EE0 /* CreateSchoolController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSchoolController.swift; sourceTree = "<group>"; };
+		E0845A9E1DF3E6FA00F9EECA /* BreakTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakTableViewCell.swift; sourceTree = "<group>"; };
+		E0845AA01DF3E8F000F9EECA /* CreateSchoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSchoolTableViewController.swift; sourceTree = "<group>"; };
+		E0B9A4351DF41C2300085BCC /* CreateSchoolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSchoolTableViewCell.swift; sourceTree = "<group>"; };
+		E0BB29EA1DD8445D004C2D95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E0BB29EC1DD8458C004C2D95 /* iNeedABreak2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iNeedABreak2.entitlements; sourceTree = "<group>"; };
+		E0CC405E1DF8E5B300CE3441 /* BreakTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +50,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93EBA5D7874EF6F7135CFD50 /* Pods_iNeedABreak2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B171CA5EA44514B788C40F3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4C8DD66BA2223B8A38DE24A /* Pods_iNeedABreak2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E00DC1491DE62A1C007CBBFB /* School Creation */ = {
+			isa = PBXGroup;
+			children = (
+				E01C6D451DD840A100AF5EE0 /* CreateSchoolController.swift */,
+				E0B9A4351DF41C2300085BCC /* CreateSchoolTableViewCell.swift */,
+				E0845AA01DF3E8F000F9EECA /* CreateSchoolTableViewController.swift */,
+			);
+			name = "School Creation";
+			sourceTree = "<group>";
+		};
+		E00DC14C1DE62B70007CBBFB /* School Selection */ = {
+			isa = PBXGroup;
+			children = (
+				E0160DBD1DDE2101009DFD59 /* SchoolTableViewController.swift */,
+				E00DC14A1DE62B65007CBBFB /* SchoolTableViewCell.swift */,
+			);
+			name = "School Selection";
+			sourceTree = "<group>";
+		};
 		E01C6D211DD83DEA00AF5EE0 = {
 			isa = PBXGroup;
 			children = (
 				E01C6D2C1DD83DEA00AF5EE0 /* iNeedABreak2 */,
 				E01C6D2B1DD83DEA00AF5EE0 /* Products */,
+				FEB1CFB97FB5F59C37E80B9D /* Pods */,
+				B171CA5EA44514B788C40F3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,37 @@
 		E01C6D2C1DD83DEA00AF5EE0 /* iNeedABreak2 */ = {
 			isa = PBXGroup;
 			children = (
+				E0845A9D1DF3E6D200F9EECA /* Breaks */,
+				E00DC1491DE62A1C007CBBFB /* School Creation */,
 				E01C6D2D1DD83DEA00AF5EE0 /* AppDelegate.swift */,
 				E01C6D2F1DD83DEA00AF5EE0 /* ViewController.swift */,
-				E01C6D311DD83DEA00AF5EE0 /* Main.storyboard */,
+				E0BB29EC1DD8458C004C2D95 /* iNeedABreak2.entitlements */,
+				E00DC14C1DE62B70007CBBFB /* School Selection */,
+				E01C6D3F1DD83E6C00AF5EE0 /* Main.storyboard */,
 				E01C6D341DD83DEA00AF5EE0 /* Assets.xcassets */,
 				E01C6D361DD83DEA00AF5EE0 /* LaunchScreen.storyboard */,
 				E01C6D391DD83DEA00AF5EE0 /* Info.plist */,
+				E0BB29EA1DD8445D004C2D95 /* GoogleService-Info.plist */,
 			);
 			path = iNeedABreak2;
+			sourceTree = "<group>";
+		};
+		E0845A9D1DF3E6D200F9EECA /* Breaks */ = {
+			isa = PBXGroup;
+			children = (
+				E0845A9E1DF3E6FA00F9EECA /* BreakTableViewCell.swift */,
+				E0CC405E1DF8E5B300CE3441 /* BreakTableViewController.swift */,
+			);
+			name = Breaks;
+			sourceTree = "<group>";
+		};
+		FEB1CFB97FB5F59C37E80B9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05507F4E69A6E469282F985A /* Pods-iNeedABreak2.debug.xcconfig */,
+				633B05B52EE7674B21F00D43 /* Pods-iNeedABreak2.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E01C6D3C1DD83DEA00AF5EE0 /* Build configuration list for PBXNativeTarget "iNeedABreak2" */;
 			buildPhases = (
+				5539E063AE46717F3ED6E2D8 /* [CP] Check Pods Manifest.lock */,
 				E01C6D261DD83DEA00AF5EE0 /* Sources */,
 				E01C6D271DD83DEA00AF5EE0 /* Frameworks */,
 				E01C6D281DD83DEA00AF5EE0 /* Resources */,
+				9211C6F30A9862AA18B0D048 /* [CP] Embed Pods Frameworks */,
+				21EC8B1727C05F6A05F0D3A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,8 +173,13 @@
 				TargetAttributes = {
 					E01C6D291DD83DEA00AF5EE0 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 56UB8JRNQJ;
+						DevelopmentTeam = 7DHT4Y8HDL;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -126,33 +208,81 @@
 			files = (
 				E01C6D381DD83DEA00AF5EE0 /* LaunchScreen.storyboard in Resources */,
 				E01C6D351DD83DEA00AF5EE0 /* Assets.xcassets in Resources */,
-				E01C6D331DD83DEA00AF5EE0 /* Main.storyboard in Resources */,
+				E0BB29EB1DD8445D004C2D95 /* GoogleService-Info.plist in Resources */,
+				E01C6D401DD83E6C00AF5EE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21EC8B1727C05F6A05F0D3A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iNeedABreak2/Pods-iNeedABreak2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5539E063AE46717F3ED6E2D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9211C6F30A9862AA18B0D048 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iNeedABreak2/Pods-iNeedABreak2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E01C6D261DD83DEA00AF5EE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B9A4361DF41C2300085BCC /* CreateSchoolTableViewCell.swift in Sources */,
 				E01C6D301DD83DEA00AF5EE0 /* ViewController.swift in Sources */,
 				E01C6D2E1DD83DEA00AF5EE0 /* AppDelegate.swift in Sources */,
+				E0160DBE1DDE2101009DFD59 /* SchoolTableViewController.swift in Sources */,
+				E0845A9F1DF3E6FA00F9EECA /* BreakTableViewCell.swift in Sources */,
+				E0CC405F1DF8E5B300CE3441 /* BreakTableViewController.swift in Sources */,
+				E01C6D461DD840A100AF5EE0 /* CreateSchoolController.swift in Sources */,
+				E00DC14B1DE62B65007CBBFB /* SchoolTableViewCell.swift in Sources */,
+				E0845AA11DF3E8F000F9EECA /* CreateSchoolTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E01C6D311DD83DEA00AF5EE0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E01C6D321DD83DEA00AF5EE0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E01C6D361DD83DEA00AF5EE0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,12 +389,15 @@
 		};
 		E01C6D3D1DD83DEA00AF5EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05507F4E69A6E469282F985A /* Pods-iNeedABreak2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 56UB8JRNQJ;
+				CODE_SIGN_ENTITLEMENTS = iNeedABreak2/iNeedABreak2.entitlements;
+				DEVELOPMENT_TEAM = 7DHT4Y8HDL;
 				INFOPLIST_FILE = iNeedABreak2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.calpoly.csc.123.iNeedABreak2;
+				PRODUCT_BUNDLE_IDENTIFIER = inab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,12 +405,15 @@
 		};
 		E01C6D3E1DD83DEA00AF5EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633B05B52EE7674B21F00D43 /* Pods-iNeedABreak2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 56UB8JRNQJ;
+				CODE_SIGN_ENTITLEMENTS = iNeedABreak2/iNeedABreak2.entitlements;
+				DEVELOPMENT_TEAM = 7DHT4Y8HDL;
 				INFOPLIST_FILE = iNeedABreak2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.calpoly.csc.123.iNeedABreak2;
+				PRODUCT_BUNDLE_IDENTIFIER = inab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +438,7 @@
 				E01C6D3E1DD83DEA00AF5EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

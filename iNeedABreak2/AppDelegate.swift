@@ -7,15 +7,22 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FIRApp.configure()
+        FIRAuth.auth()?.signInAnonymously(completion: nil)
+//        FIRAuth.auth()?.signInAnonymously(completion: { (user: FIRUser?, error: Error?) in
+//            print(error)
+//        })
+        
         return true
     }
 
